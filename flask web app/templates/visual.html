@@ -1,0 +1,29 @@
+{%extends "base.html"%}
+{%block title%} Visualization {%endblock%}
+
+{%block content%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    
+    <div class=frametest>
+        <iframe src="http://localhost:5601/app/dashboards#/view/3b66c9c0-cee8-11ed-87fe-53cf7399d29b?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3A'1998-12-31T23%3A30%3A00.000Z'%2Cto%3A'2023-02-28T23%3A30%3A00.000Z'))&show-query-input=true&show-time-filter=true" style="position:fixed; height:97%; width:100%;"></iframe>
+         
+    </div>
+   
+</body>
+
+</html>
+
+
+{%endblock%}

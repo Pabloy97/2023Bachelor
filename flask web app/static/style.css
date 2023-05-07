@@ -1,0 +1,40 @@
+/* Stylize the divs in the help html page*/
+.Welcome{
+    height:5%;
+    width:80%; 
+    padding-left: 20%;
+    text-align: center;
+} 
+
+
+.Usage{
+    height:30%;
+    width:80%; 
+    padding-left: 20%;
+    text-align: center;
+    padding-top: 20px;  
+} 
+
+.Graphs{
+    height:30%; 
+    width:80%; 
+    padding-left: 20%;
+    text-align: center;
+    padding-top: 20px;  
+} 
+
+.Visualize{
+    height:30%; 
+    width:80%; 
+    padding-left: 20%;
+    text-align: center;
+    padding-top: 20px;  
+} 
+
+.Errors{
+    height:30%; 
+    width:80%; 
+    padding-left: 20%;
+    text-align: center;
+    padding-top: 20px;  
+} 
