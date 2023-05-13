@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cvrfdoc xmlns="http://www.icasi.org/CVRF/schema/cvrf/1.1" xmlns:cvrf="http://www.icasi.org/CVRF/schema/cvrf/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icasi.org/CVRF/schema/cvrf/1.1 http://www.icasi.org/CVRF/schema/cvrf/1.1/cvrf.xsd">
+   <DocumentTitle xml:lang="en">CVE Output in CVRF 1.1: 20230303</DocumentTitle>
+   <DocumentType>CVE List</DocumentType>
+   <DocumentPublisher Type="Other">
+      <ContactDetails>cve@mitre.org</ContactDetails>
+      <IssuingAuthority>The MITRE Corporation</IssuingAuthority>
+   </DocumentPublisher>
+   <DocumentTracking>
+      <Identification>
+         <ID>20230303-051842</ID>
+      </Identification>
+      <Status>Interim</Status>
+      <Version>2023.03.03.05</Version>
+      <RevisionHistory>
+         <Revision>
+            <Number>1</Number>
+            <Date>2023-03-03T05:18:42</Date>
+            <Description>Initial public release</Description>
+         </Revision>
+      </RevisionHistory>
+      <InitialReleaseDate>2023-03-03T05:18:42</InitialReleaseDate>
+      <InitialReleaseDate>2023-03-03T05:18:42</InitialReleaseDate>
+      <Generator>
+         <Engine>MITRE Custom CVE-to-CVRF Converter 2.0</Engine>
+      </Generator>
+   </DocumentTracking>
+   <DocumentNotes>
+      <Note Audience="All" Ordinal="1" Title="CVE List" Type="General">This is a list of CVE Identifiers as published by MITRE.</Note>
+      <Note Audience="All" Ordinal="2" Title="License" Type="General">The MITRE Corporation (MITRE) hereby grants you a non-exclusive,  royalty-free license to use Common Vulnerabilities and Exposures (CVE (R)) for research, development, and commercial purposes. Any copy you make for such purposes is authorized provided that you reproduce MITREs copyright designation and this license in any such copy.</Note>
+      <Note Audience="All" Ordinal="3" Title="Disclaimers" Type="General">ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN &amp;quot;AS IS&amp;quot; BASIS AND THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY), THE MITRE CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</Note>
+   </DocumentNotes>
+   <Vulnerability Ordinal="1" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0001</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">ip_input.c in BSD-derived TCP/IP implementations allows remote attackers to cause a denial of service (crash or hang) via crafted packets.</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">2000-02-04</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2005-12-16</Note>
+      </Notes>
+      <CVE>CVE-1999-0001</CVE>
+      <References>
+         <Reference>
+            <URL/>
+            <Description>BUGTRAQ:19981223 Re: CERT Advisory CA-98.13 - TCP/IP Denial of Service</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98-13-tcp-denial-of-service</Description>
+         </Reference>
+         <Reference>
+            <URL>http://www.openbsd.org/errata23.html#tcpfix</URL>
+            <Description>CONFIRM:http://www.openbsd.org/errata23.html#tcpfix</Description>
+         </Reference>
+         <Reference>
+            <URL>http://www.osvdb.org/5707</URL>
+            <Description>OSVDB:5707</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
+   <Vulnerability Ordinal="2" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0002</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">1999-09-29</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2005-11-02</Note>
+      </Notes>
+      <CVE>CVE-1999-0002</CVE>
+      <References>
+         <Reference>
+            <URL>http://www.securityfocus.com/bid/121</URL>
+            <Description>BID:121</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98.12.mountd</Description>
+         </Reference>
+         <Reference>
+            <URL>http://www.ciac.org/ciac/bulletins/j-006.shtml</URL>
+            <Description>CIAC:J-006</Description>
+         </Reference>
+         <Reference>
+            <URL>ftp://patches.sgi.com/support/free/security/advisories/19981006-01-I</URL>
+            <Description>SGI:19981006-01-I</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:linux-mountd-bo</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
+   <Vulnerability Ordinal="3" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0003</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">Execute commands as root via buffer overflow in Tooltalk database server (rpc.ttdbserverd).</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">1999-09-29</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2005-11-02</Note>
+      </Notes>
+      <CVE>CVE-1999-0003</CVE>
+      <References>
+         <Reference>
+            <URL>http://www.securityfocus.com/bid/122</URL>
+            <Description>BID:122</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98.11.tooltalk</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>NAI:NAI-29</Description>
+         </Reference>
+         <Reference>
+            <URL>ftp://patches.sgi.com/support/free/security/advisories/19981101-01-A</URL>
+            <Description>SGI:19981101-01-A</Description>
+         </Reference>
+         <Reference>
+            <URL>ftp://patches.sgi.com/support/free/security/advisories/19981101-01-PX</URL>
+            <Description>SGI:19981101-01-PX</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:aix-ttdbserver</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:tooltalk</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
+   <Vulnerability Ordinal="4" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0004</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">MIME buffer overflow in email clients, e.g. Solaris mailtool and Outlook.</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">2000-02-04</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2018-10-12</Note>
+      </Notes>
+      <CVE>CVE-1999-0004</CVE>
+      <References>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98.10.mime_buffer_overflows</Description>
+         </Reference>
+         <Reference>
+            <URL>https://docs.microsoft.com/en-us/security-updates/securitybulletins/1998/ms98-008</URL>
+            <Description>MS:MS98-008</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>SUN:00175</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:outlook-long-name</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
+   <Vulnerability Ordinal="5" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0005</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">Arbitrary command execution via IMAP buffer overflow in authenticate command.</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">1999-09-29</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2005-11-02</Note>
+      </Notes>
+      <CVE>CVE-1999-0005</CVE>
+      <References>
+         <Reference>
+            <URL>http://www.securityfocus.com/bid/130</URL>
+            <Description>BID:130</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98.09.imapd</Description>
+         </Reference>
+         <Reference>
+            <URL>http://sunsolve.sun.com/pub-cgi/retrieve.pl?doctype=coll&amp;doc=secbull/177</URL>
+            <Description>SUN:00177</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:imap-authenticate-bo</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
+   <Vulnerability Ordinal="6" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+      <Title>CVE-1999-0006</Title>
+      <Notes>
+         <Note Ordinal="1" Type="Description">Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.</Note>
+         <Note Ordinal="2" Title="Published" Type="Other">1999-09-29</Note>
+         <Note Ordinal="3" Title="Modified" Type="Other">2005-11-02</Note>
+      </Notes>
+      <CVE>CVE-1999-0006</CVE>
+      <References>
+         <Reference>
+            <URL/>
+            <Description>AUSCERT:AA-98.01</Description>
+         </Reference>
+         <Reference>
+            <URL>http://www.securityfocus.com/bid/133</URL>
+            <Description>BID:133</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>CERT:CA-98.08.qpopper_vul</Description>
+         </Reference>
+         <Reference>
+            <URL>ftp://patches.sgi.com/support/free/security/advisories/19980801-01-I</URL>
+            <Description>SGI:19980801-01-I</Description>
+         </Reference>
+         <Reference>
+            <URL/>
+            <Description>XF:qpopper-pass-overflow</Description>
+         </Reference>
+      </References>
+   </Vulnerability>
