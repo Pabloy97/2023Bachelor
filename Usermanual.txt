@@ -1,0 +1,16 @@
+A User manual
+Firstly to use the tool one has to download Elasticsearch and Kibana. Then run
+the program. The script containing the flask code has to be running to access the
+website.
+To access the website as it is now, access using localhost:5000 to access the home
+page. From the homepage you will be able to see all the visualizations that were
+created from the Kibana instance. These visualizations are interact able by clicking
+and dragging over areas in the graphs to get a closer look at the data.
+You can navigate to different sites using the navigation bar at the top of the website.
+Here lays all the other access able pages in the website. Example if you would like
+to create your own visualizations which you can not do in the home page, navigate
+to the Make Visualization page and follow what is displayed on the screen to create
+visualizations. This tool does not yet have a function to save the visualization on
+the web-page.
+If there are any other questions you could navigate to the help section which has
+information about the website and issues that can arise when creating a visualization.
