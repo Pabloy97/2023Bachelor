@@ -4,7 +4,7 @@ from flask import Flask, redirect, url_for, render_template, request, session
 from datetime import timedelta
 
 
-app = Flask(__name__)
+app = Flask(name)
 app.secret_key = "test" #make the secret key more secure later
 app.permanent_session_lifetime = timedelta(days=7)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -57,15 +57,15 @@ def testframe():
 def help():
     return render_template("hjelpe.html")
 
-@app.route("/help")
-def helpe():
-    return render_template("hjelpe.html")
 
 @app.route("/MakeVisual")
 def MakeVis():
     return render_template("MakeVisual.html")
 
-# defining the home page of our site
-if __name__ == "__main__":
-    app.run(debug=TRUE)
+@app.route("/OtherVisual")
+def OtherVis():
+    return render_template("OtherVisual.html")
 
+# defining the home page of our site
+if name == "main":
+    app.run(debug=TRUE)
